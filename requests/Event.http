@@ -1,0 +1,19 @@
+### POST EVENT
+POST http://localhost:3000/api/events
+content-type: application/json
+
+{
+  "user": {
+    "id": "b73ffe41-ab66-4e7e-bb72-992387200567"
+  },
+  "consents1": [
+    {
+      "id": "email_notifications",
+      "enabled": false
+    },
+    {
+      "id": "sms_notifications",
+      "enabled": true
+    }
+  ]
+}

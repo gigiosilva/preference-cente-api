@@ -1,0 +1,16 @@
+### GET USERS
+GET http://localhost:3000/api/users
+
+### GET USER
+GET http://localhost:3000/api/users/35fd043a-2f68-49e4-bf9b-e081c01069e2
+
+### DELETE USER
+DELETE http://localhost:3000/api/users/35fd043a-2f68-49e4-bf9b-e081c01069e2
+
+### ADD USER
+POST http://localhost:3000/api/users
+content-type: application/json
+
+{
+  "email": "giovani.m.silva7@gmail.com"
+}
