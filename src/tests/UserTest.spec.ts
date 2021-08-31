@@ -30,7 +30,7 @@ export const getConnection = jest.fn().mockReturnValue({
   getRepository: () => repositoryMock,
 });
 
-describe('** USER ROUTES **', () => {
+describe('** USER ROUTE **', () => {
   describe('GET /users', () => {
     it('should return all users', async () => {
       querybuilderMock.select.mockReturnThis();

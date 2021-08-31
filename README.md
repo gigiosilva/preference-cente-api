@@ -8,6 +8,10 @@ This is the Preference Center API
 - Clone this repo
 - Run `yarn dev` or `docker compose up` on your terminal
 
+## Running Tests
+
+- Run `yarn test` on your terminal
+
 ## API info
 * The base URL is: **http://localhost:3000/api**
 * All endpoint returns a JSON containing an Object or an Array of Objects.
@@ -75,6 +79,7 @@ email | STRING | YES | An unique valid email
 {
   "email": "validunique@email.com",
   "id": "00000000-0000-0000-0000-000000000000",
+  "consents": []
 }
 ```
 

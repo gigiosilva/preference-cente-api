@@ -6,7 +6,7 @@ content-type: application/json
   "user": {
     "id": "b73ffe41-ab66-4e7e-bb72-992387200567"
   },
-  "consents1": [
+  "consents": [
     {
       "id": "email_notifications",
       "enabled": false

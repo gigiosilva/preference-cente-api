@@ -12,5 +12,5 @@ POST http://localhost:3000/api/users
 content-type: application/json
 
 {
-  "email": "giovani.m.silva7@gmail.com"
+  "email": "giovani.m.silva09@gmail.com"
 }

@@ -33,7 +33,7 @@ export const getConnection = jest.fn().mockReturnValue({
   getRepository: () => repositoryMock,
 });
 
-describe('** EVENT ROUTES **', () => {
+describe('** EVENT ROUTE **', () => {
   describe('POST /events', () => {
     it('should add event and create consents', async () => {
       querybuilderMock.select.mockReturnThis();
