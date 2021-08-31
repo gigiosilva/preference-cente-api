@@ -2,6 +2,16 @@
 
 This is the Preference Center API
 
+## Setup
+
+- Create .env file in root folder
+- Add the following to .env
+```
+PORT=3000
+NODE_ENV=dev
+DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres
+```
+
 ## Starting Server
 
 - [Install Docker](https://www.docker.com/products/docker-desktop/)
